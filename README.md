@@ -31,3 +31,27 @@ This homework focuses on practicing GitHub repository management, requirements t
 
 **Postcondition:** The ticket purchase is confirmed and the selected seat is no longer available for another purchase.
 
+# Phase 6 — Purchase Ticket Sequence Diagram
+
+Participants:
+- Customer
+- Kiosk Interface
+- Ticket Service
+- Payment Service
+- Seat Database
+
+Interaction order:
+1. Customer selects showtime.
+2. Kiosk requests available seats.
+3. Ticket Service checks the Seat Database for available seats.
+4. Seat Database returns available seats.
+5. Customer selects a seat.
+6. Ticket Service checks seat availability.
+7. Payment Service processes payment.
+8. Payment Service confirms the purchase.
+9. Ticket Service sends the confirmation to the Kiosk Interface.
+10. Kiosk Interface displays the confirmation to the Customer.
+
+Time flows from top to bottom.
+
+
