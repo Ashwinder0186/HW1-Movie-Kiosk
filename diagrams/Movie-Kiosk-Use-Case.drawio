@@ -1,0 +1,48 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram name="Movie-Kiosk-Use-Case" id="movie-kiosk-use-case">
+    <mxGraphModel dx="1212" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="boundary" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontStyle=1;verticalAlign=top;align=center;spacingTop=12;" value="Movie Theater Ticket Kiosk" vertex="1">
+          <mxGeometry height="520" width="650" x="300" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="actor" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Customer" vertex="1">
+          <mxGeometry height="140" width="100" x="49" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="uc1" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" value="View Showtimes" vertex="1">
+          <mxGeometry height="80" width="310" x="480" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="R8VkRDIgQcvwEmBE3ot--10" edge="1" parent="1" source="uc2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc2" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" value="Select Seat" vertex="1">
+          <mxGeometry height="80" width="310" x="470" y="289" as="geometry" />
+        </mxCell>
+        <mxCell id="R8VkRDIgQcvwEmBE3ot--11" edge="1" parent="1" source="uc3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="463" />
+              <mxPoint x="400" y="330.06" />
+            </Array>
+            <mxPoint x="140" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uc3" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;" value="Purchase Ticket" vertex="1">
+          <mxGeometry height="80" width="310" x="479" y="423" as="geometry" />
+        </mxCell>
+        <mxCell id="R8VkRDIgQcvwEmBE3ot--9" edge="1" parent="1" source="uc1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="actor">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="190.06" />
+              <mxPoint x="400" y="330.06" />
+              <mxPoint x="140" y="330.06" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
